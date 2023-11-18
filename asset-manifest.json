@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fsda/static/css/main.f71a833c.css",
+    "main.js": "/fsda/static/js/main.17f95c3f.js",
+    "index.html": "/fsda/index.html",
+    "main.f71a833c.css.map": "/fsda/static/css/main.f71a833c.css.map",
+    "main.17f95c3f.js.map": "/fsda/static/js/main.17f95c3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f71a833c.css",
+    "static/js/main.17f95c3f.js"
+  ]
+}
