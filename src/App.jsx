@@ -5,6 +5,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { IoIosCheckmark } from "react-icons/io";
 import { TextInput } from "./components/TextInput";
 import { PasswordInput } from "./components/PasswordInput";
+import { SlLogin } from "react-icons/sl";
 
 
 
@@ -22,7 +23,7 @@ export default function App() {
 	const {
 		register,
 		handleSubmit,
-		formState: { errors, isValid },
+		formState: { errors },
 		reset,
 	} = useForm({
 		mode: "onBlur"
@@ -45,7 +46,9 @@ export default function App() {
 
 	return (
 		<form className="login-form" noValidate onSubmit={handleSubmit(onSubmit)}>
-			<div className="title">Вход</div>
+			<div className="login-svg-wrapper">
+				<SlLogin />
+			</div>
 
 			<div className="inputs-wrapper">
 				<TextInput
@@ -73,7 +76,7 @@ export default function App() {
 					</div>
 					Сохранить вход
 				</label>
-				<input className="input-submit" disabled={!isValid} type="submit" value="Войти" />
+				<input className="input-submit" type="submit" value="Войти" />
 			</div>
 
 		</form>

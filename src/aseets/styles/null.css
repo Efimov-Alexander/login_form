@@ -19,7 +19,7 @@ body {
 	height: 100%;
 	min-width: 320px;
 	background-color: #575757;
-	background: linear-gradient(to top right, #1d1d1d, #8a51cf);
+	background: linear-gradient( to right top , #1d1d1d, #8a51cf);
 	font-family: "Inter", sans-serif;
 	color: #fff;
 }
