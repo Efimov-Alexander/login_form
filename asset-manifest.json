@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fsda/static/css/main.0cdc53e4.css",
+    "main.css": "/fsda/static/css/main.132f8f5e.css",
     "main.js": "/fsda/static/js/main.29e075c8.js",
     "index.html": "/fsda/index.html",
-    "main.0cdc53e4.css.map": "/fsda/static/css/main.0cdc53e4.css.map",
+    "main.132f8f5e.css.map": "/fsda/static/css/main.132f8f5e.css.map",
     "main.29e075c8.js.map": "/fsda/static/js/main.29e075c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cdc53e4.css",
+    "static/css/main.132f8f5e.css",
     "static/js/main.29e075c8.js"
   ]
 }
